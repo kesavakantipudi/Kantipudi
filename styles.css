@@ -2,13 +2,8 @@
 body {
     margin: 0;
     font-family: Arial, sans-serif;
-    background-image: url('background.jpg'); /* Ensure correct image path */
-    background-size: cover; /* This makes sure the image covers the entire page */
-    background-position: center; /* This centers the image */
-    background-repeat: no-repeat; /* Prevents the image from repeating */
-    height: 100vh; /* Ensures the body takes up the full viewport height */
-    overflow-x: hidden; /* Prevents horizontal scrolling if the image is larger than the screen */
-    color: white;
+    background: rgb(255,235,0);
+    background: linear-gradient(90deg, rgba(255,235,0,1) 0%, rgba(255,127,8,1) 50%, rgba(255,0,0,1) 100%);
 }
 
 
